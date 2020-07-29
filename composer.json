@@ -1,0 +1,27 @@
+{
+  "name": "adimihaila/console-availability-bundle",
+  "description": "A bundle that provides a console command availability in a development environment.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adi Mihaila",
+      "email": "adi.mihaila@outlook.com",
+      "role": "Developer"
+    },
+    {
+      "name": "eMAGTechLabs",
+      "email": "techlabs@emag.ro",
+      "homepage": "http://techlabs.emag.ro",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "EmagTechLabs\\ConsoleAvailabilityBundle\\": "src/"
+    }
+  }
+}
